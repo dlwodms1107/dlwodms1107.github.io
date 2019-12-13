@@ -1,0 +1,296 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+<style>
+  *{padding: 0; margin: 0;}
+  .clear {clear:both;}
+  #page { width: 1500px;
+        margin: 0 auto;
+         }
+header{width:1495px; 
+     height: 150px;
+     margin-top:10px;
+     }
+     #logo{float:left; }
+      #top{float:right; 
+         margin: 30px 20px 0 0;
+        }
+li {list-style-type: none;}
+nav{width:1495px;
+    height: 140px;
+    margin-top:10px;
+    border-bottom:solid 2px #cccccc;
+   }
+    nav li{float:left;}
+section{width:774px;
+      height: 360px;
+      float: left;
+    margin-top: 10px;
+    margin-left: 190px
+     }
+aside {width: 390px;
+     height: 360px;
+     float: left;
+     margin-top: 150px;
+     margin-left: 29px;
+     }
+footer {width: 1495px;
+      height: 300px;
+      border-top: solid 2px #cccccc;
+      margin-top: 820px;
+      }
+       
+       #addres {float: left; 
+            margin: 30px 0 0 30px;}
+a:link{color:black; //미방문 링크}
+a:visited{color:black; //방문 링크}
+a:hover{color:#777777; //마우스 포인터 올려뒀을 때}
+a:active{color:#666666; //클릭했을 때}
+ 
+table{
+ height: 900px; width: 750px;
+ border:#789B8C 2px solid;
+ border-collapse: collapse;
+}
+td{padding: 5px 10px;
+ border: #789B8C 1px solid;}
+ th{background-color: #B8CCC4;
+  text-align:left;
+ padding: 5px 10px;}
+ 
+ textarea{
+  width: 600px;
+  height: 100px;
+  padding: 5px;
+  border: #ccc 1px solid;
+ }
+ 
+ input[type='radio'],
+ input[type='checkbox']
+ {cursor:pointer;}
+ textarea:focus{background-color:#E9EAE9;}
+ input:focus{background-color:#E9EAE9;}
+ .btns{margin: 30px;
+   margin-left: 300px;}
+   .btn {
+    width: 100px;
+    margin:0 10px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+   }
+   .btn:hover {opacity: 0.5;}
+   .btn:active {color:#7EAC98;}
+   .btn-clear {background-color: #ccc;}
+    .btn-send {background-color: #B8CCC4;}
+
+a{text-decoration: none;}
+
+h2 {border-left: solid 10px #3D6776; padding: 10px; width:900px; color:#657C85}
+
+    
+#top{float:right; }
+
+</style>
+
+
+</head>
+
+
+
+
+
+
+
+
+<body>
+ 
+<div id = 'top'>
+
+<div id = 'page'>
+
+
+<header> 
+
+<div id="logo">
+  <a href="index.html"><img src='img/logo.png'></a>
+</div>
+
+
+<div id ='top'>
+  <a href="Errorpage.html" target="_blank">신청 가이드 </a>|<a href="Eventinfo.html"> 이벤트 상세정보</a> |<a href="Gardeninfo.html"> 회사소개 </a>
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+<nav> 
+
+<ul>
+  <li><a href="Sinchung01.html"><img src="img/menu01.png"></a></li>
+  <li><a href="Sinchung02.html"><img src="img/menu02.png"></a></li>
+  <li><a href="Time.html"><img src="img/menu03.png"></a></li>
+  <li><a href="Hotelinfo.html"><img src="img/menu04.png"></a></li>
+  <li><a href="gnrl.html"><img src="img/menu05.png"></a></li>
+
+</ul>
+
+
+ </nav>
+
+
+
+
+<section> 
+
+
+<br>
+<h2>이벤트(단체)신청 양식</h2>
+<p></p>
+<br>
+필요한 사항을 기입한 후 신청 버튼을 눌러 주세요.
+<p></p>
+<br><br>
+<form>
+ 
+<table border=1>
+ <tr>
+  <th>대표자 성함: </th>
+  <td><input type = 'text' placeholder="실명으로 기입해주세요."></td>
+ </tr>
+
+ <tr>
+  <th>신청 플랜: </th>
+  <td>
+   <select>
+    <option>선택해주세요</option>
+    <option>플랜 A 01.01 ~ 01.12</option>
+    <option>플랜 B 01.17 ~ 01.27</option></select>
+  </td>
+ </tr>
+
+ <tr>
+  <th>평균연령대<br>및 인원: </th>
+  <td><input type='radio'> 미성년 <input type='radio'> 성년 &nbsp; &nbsp;<input type = 'text' placeholder="총 인원수 (30명 이하)"></td>
+ </tr>
+
+
+ <tr>
+  <th>유입 경로: </th>
+  <td><input type ='checkbox'>인터넷 
+   <input type ='checkbox'>광고
+   <input type ='checkbox'>SNS
+      <input type ='checkbox'> 유튜브
+      <input type ='checkbox'> 서치 
+      <input type ='checkbox'> 기타 </td>
+ </tr>
+
+ 
+ <tr>
+  <th>연락처: </th>
+  <td><input type = 'text' placeholder="대표자 연락처"></td>
+ </tr>
+
+ <tr>
+  <th>메일 주소: </th>
+  <td><input type = 'text'placeholder="대표자 이메일"> @ <select>
+    <option>선택해주세요</option>
+    <option>Gmail.com</option>
+    <option>naver.com</option>'
+   <option>hanmail.com</option>
+  <option>Daum.net</option>
+ <option>직접입력</option></select></td>
+ </tr>
+
+ <tr>
+  <th>코멘트: </th>
+  <td><textarea rows="3" cols = '42' placeholder="본 이벤트의 관리 담당자에게 하고 싶으신 말씀을 자유롭게 적어주세요. 해당 사항은 당첨자 발표에 영향을 주지 않습니다."></textarea></td>
+ </tr>
+
+
+<tr>
+  <th>사진: </th>
+  <td><h5>(대표자의 신분증 이름 부분만을 첨부해주세요.)</h5> <input type="file"></td>
+ </tr>
+
+ <tr>
+  <th>그 외 사항: </th>
+  <td><textarea rows="3" cols = '42'placeholder="본 이벤트에 당첨될 시 가든 측에서 참고해야 할 사항을 작성해주세요. 해당 사항은 당첨자 발표에 영향을 주지 않으며, 이후 해당 사항에 대해 개인 연락이 전달될 수 있습니다. 공란이어도 무관합니다."></textarea></td>
+ </tr>
+ 
+
+</table>
+
+<br>
+
+ 본 양식에 기입된 기본정보는 당첨자 발표 및 통계작성을 위해 1개월간 보관 후 파기됩니다. <br>개인정보 수집에 동의하십니까? <br><br>
+<input type='radio'> 예 <input type='radio'> 아니오 
+
+<p></p>
+
+<div class ='btns'>
+<input type ='reset' value ='취소' class='btn btn-clear'>
+<input type ='submit' value ='신청' class='btn btn-send'>
+</div>
+
+ 
+
+</form>
+
+ 
+
+
+<div id='top'><a href='#top'> 위로가기 </a></div>
+
+</section>
+
+
+<aside> 
+
+<ul>
+  <li><a href="Errorpage.html" target="_blank"><img src = 'img/banner01.png'></a></li>
+  <li><a href="Errorpage.html" target="_blank"><img src = 'img/banner02.png'></a></li>
+</ul>
+
+</aside>
+
+
+
+
+<div class ='clear'></div>
+
+
+
+
+
+
+<footer>
+
+<div id= 'address'>
+  <img src ='img/address3.png'>
+</div>
+
+
+
+ </footer>
+
+
+ <div class ='clear'> </div>
+
+
+
+</div>
+
+
+
+</body>
+</html>
